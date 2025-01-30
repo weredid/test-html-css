@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*-----------------------------header---------------------------------------------------------*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 95px;
+    position: fixed;
+    width: 100%;
+    height: 86px;
+    background: #EFF0F3;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+
+}
+
+.header-first-word {
+    color: #001858;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header-second-word {
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.link-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    color: #2B2C34;
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 17px;
+    gap: 10px;
+
+}
+
+.link:hover {
+    background: #6246EA;
+    color: #FFFFFE;
+    transition: background 0.3s, color 0.3s;
+    border-radius: 4px;
+}
+
+/*---------------------------main------------------------------------------------------*/
+/*---------------------------1st section----------------------------------------------------------------*/
+.first-section-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 164px 95px 263px 95px;
+}
+
+.about-this-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h1 {
+    width: 617px;
+    color: #2B2C34;
+    /* 64 px - Heading 1 */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.container-text-with-black-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.black-line {
+    width: 3px;
+    height: 56px;
+    background: #2B2C34;
+}
+
+.about-page-text {
+    width: 652px;
+    color: #9A9494;
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subscribe-information-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#email {
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFFFFE;
+    color: #C0C0C0;
+    /* 20 px - Paragraph 1 */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+.button-subscribe {
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #6246EA;
+    color: #FFFFFE;
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+aside {
+    display: flex;
+    width: 470px;
+    padding: 12.874px 18.074px 10.757px 17.649px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--------------------------2nd section-----------------------------------------------*/
+.second-section-main {
+    width: 100%;
+    height: 500px;
+    background: #EFF0F3;
+
+}
+
+.container-cards-category {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+/*-----------title category---------------------------*/
+.title-category {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 842px;
+    padding: 64px 94px 0 94px;
+}
+
+h4 {
+    color: #2B2C34;
+    /* 24 px - Sub heading 1 */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+/*-----------scroll card--------------------------*/
+.scroll-card {
+    color: #2B2C34;
+    text-align: right;
+    /* 20 px - Sub Heading 2 */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.category-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+
+.category-cards div {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    width: 220px;
+    height: 280px;
+    border-radius: 8px;
+    /* For White Background */
+    box-shadow: 4px 6px 13px 0 rgba(215, 215, 215, 0.25);
+    background: #FFFFFE;
+    padding-left: 30px;
+}
+
+.category-cards div p {
+    color: #232323;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.category-cards div div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 7.458px;
+    background: #ffffff;
+    padding: 0;
+}
+
+.category-cards div:hover {
+    background: #6246EA;
+}
+.category-cards div div:hover{
+    background: #ffffff;
+}
+/*-----------------------third-section-main----------------------------------------*/
+.container-featured-article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px 12px;
+}
+.title-third-section{
+    display: flex;
+    width: 100%;
+    padding: 80px 94px 0 94px;
+    justify-content: center;
+    align-items: center;
+    gap: 904px;
+
+}
+.main-card-pictures{
+    width: 260px;
+    height: 198px;
+}
+.mini-picture{
+    width: 57px;
+    height: 57px;
+}
+.container-card{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    width: 300px;
+    height: 425px;
+    flex-direction: column;
+}
+h5{
+    width: 260px;
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 25px auto 80px auto;
+}
+h6{
+    width: 73px;
+    height: 21px;
+    color:#2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.inf-date{
+    width: 184px;
+    height: 21px;
+    color:#2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.card-information{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.text-inf{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
