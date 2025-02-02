@@ -78,7 +78,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 164px 95px 263px 95px;
+    padding: 250px 95px 263px 95px;
 }
 
 .about-this-page {
@@ -167,7 +167,7 @@ h1 {
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-
+    cursor: pointer;
 }
 
 aside {
@@ -269,6 +269,7 @@ h4 {
     background: #ffffff;
     padding: 0;
     margin: 65px 130px 0 0;
+    box-shadow: 4px 6px 13px 0 rgba(113, 113, 113, 0.25);
 }
 
 .category-cards div:hover {
@@ -439,6 +440,7 @@ h6 {
     border-radius: 8px;
     background: #6246EA;
     color: #FFFFFE;
+    cursor: pointer;
 
     /* 20 px - Sub Heading 2 */
     font-family: "Plus Jakarta Sans",sans-serif;
