@@ -3,9 +3,11 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+
 }
 
 /*-----------------------------header---------------------------------------------------------*/
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -303,9 +305,9 @@ h4 {
 }
 
 .main-card-pictures {
-    width: 100%; /* Заповнює картку */
+    width: 100%;
     height: 198px;
-    object-fit: cover; /* Щоб не пливла */
+    object-fit: cover;
     border-radius: 8px;
 }
 
@@ -332,7 +334,7 @@ h4 {
 }
 
 .container-card:hover {
-    transform: scale(1.02);
+    transform: scale(1.001);
     z-index: 4;
     box-shadow: 8px 12px 26px 16px rgba(0, 0, 0, 0.1);
 }
@@ -511,6 +513,7 @@ h2{
     margin-right: 20px;
 }
 /*------------------footer-------------------------------------------------------------------*/
+
 .footer-container{
     display: flex;
     align-items: flex-start;
@@ -591,8 +594,37 @@ h3{
     text-transform: uppercase;
     margin-bottom: 5px;
 }
+.footer-grey-line{
 
+    width: 1250px;
+    height: 1px;
+    background: #C0C0C0;
+}
+.container-footer-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.footer-last-text{
+    color: #2B2C34;
+    font-family: "Plus Jakarta Sans",sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-last-ps{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    padding: 0 95px 70px 95px;
+}
+.footer-container-text{
+    display: flex;
+    align-items: start;
+    padding: 26px 0;
+}
 
 
 
