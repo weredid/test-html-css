@@ -133,7 +133,7 @@ h1 {
 
 }
 
-#email {
+#input-email{
     display: flex;
     padding: 21px 200px 21px 25px;
     align-items: center;
@@ -173,7 +173,7 @@ h1 {
 aside {
     display: flex;
     width: 470px;
-    padding: 12.874px 18.074px 10.757px 17.649px;
+    padding: 13px 18px 11px 18px;
     justify-content: center;
     align-items: center;
 }
@@ -265,7 +265,7 @@ h4 {
     align-items: center;
     width: 60px;
     height: 60px;
-    border-radius: 7.458px;
+    border-radius: 7px;
     background: #ffffff;
     padding: 0;
     margin: 65px 130px 0 0;
@@ -498,7 +498,7 @@ h2{
     line-height: normal;
 }
 
-#email-2 {
+#input-email-2 {
     display: flex;
     padding: 21px 200px 21px 25px;
     align-items: center;
