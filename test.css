@@ -133,7 +133,7 @@ h1 {
 
 }
 
-#input-email{
+#input-email {
     display: flex;
     padding: 21px 200px 21px 25px;
     align-items: center;
@@ -281,12 +281,13 @@ h4 {
 }
 
 /*-----------------------third-section-main----------------------------------------*/
-.third-section-main{
+.third-section-main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .container-featured-article {
     display: flex;
     flex-wrap: wrap;
@@ -429,8 +430,9 @@ h6 {
 .react-js-title .title-third-section {
     gap: 950px;
 }
+
 /*----------button-------------------------------------*/
-.third-section-button-footer{
+.third-section-button-footer {
     display: flex;
     padding: 20px 23px 19px 23px;
     justify-content: center;
@@ -443,55 +445,60 @@ h6 {
     cursor: pointer;
 
     /* 20 px - Sub Heading 2 */
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
 
-    margin:80px 0;
+    margin: 80px 0;
 }
 
 /*-------four section main-----------------------------------------------------------------------*/
-.four-section-main{
+.four-section-main {
     display: flex;
     padding: 58px 372px;
     flex-direction: column;
     align-items: center;
     background: #EFF0F3;
 }
-.subscribe-inform-foot{
+
+.subscribe-inform-foot {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
 }
-.subscribe-inform-foot-text{
+
+.subscribe-inform-foot-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.subscribe-inform-foot img{
+
+.subscribe-inform-foot img {
     width: 80px;
     height: 107px;
 }
-h2{
+
+h2 {
     color: #2B2C34;
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
 }
-.subscribe-inform-foot p{
-    color:  #C0C0C0;
+
+.subscribe-inform-foot p {
+    color: #C0C0C0;
     text-align: center;
 
     /* 20 px - Paragraph 1 */
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -514,48 +521,53 @@ h2{
     line-height: normal;
     margin-right: 20px;
 }
+
 /*------------------footer-------------------------------------------------------------------*/
 
-.footer-container{
+.footer-container {
     display: flex;
     align-items: flex-start;
     padding: 70px 95px 50px;
     gap: 160px;
 }
+
 /*-------------------left container------------------------------------------*/
-.left-footer-container{
+.left-footer-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
 
-.footer-first-word{
+.footer-first-word {
     color: #001858;
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
-.footer-second-word{
-    color:  #6246EA;
-    font-family: "Plus Jakarta Sans",sans-serif;
+
+.footer-second-word {
+    color: #6246EA;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
-.left-footer-container p{
-    color:  #2B2C34;
+
+.left-footer-container p {
+    color: #2B2C34;
     /* 18 px - Paragraph 2 */
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.social-link{
+
+.social-link {
     display: flex;
 
     height: auto;
@@ -563,32 +575,35 @@ h2{
     gap: 30px;
     align-items: center;
 }
+
 /*-----------------------right footer container-------------------------------------------*/
-.right-footer-container{
+.right-footer-container {
     display: flex;
     align-items: flex-start;
     gap: 95px;
 
 }
 
-.fot-ri{
+.fot-ri {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
 }
-.fot-ri a{
+
+.fot-ri a {
     color: #2B2C34;
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: capitalize;
 }
-h3{
+
+h3 {
     color: #2B2C34;
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -596,33 +611,38 @@ h3{
     text-transform: uppercase;
     margin-bottom: 5px;
 }
-.footer-grey-line{
+
+.footer-grey-line {
 
     width: 1250px;
     height: 1px;
     background: #C0C0C0;
 }
-.container-footer-line{
+
+.container-footer-line {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
-.footer-last-text{
+
+.footer-last-text {
     color: #2B2C34;
-    font-family: "Plus Jakarta Sans",sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.footer-last-ps{
+
+.footer-last-ps {
     display: flex;
     flex-direction: column;
     height: 70px;
     padding: 0 95px 70px 95px;
 }
-.footer-container-text{
+
+.footer-container-text {
     display: flex;
     align-items: start;
     padding: 26px 0;
